@@ -17,5 +17,5 @@ const util = require('@new4/utils');
 publish
 
 ```bash
-npm publish --access=public
+yarn publish --access=public
 ```
