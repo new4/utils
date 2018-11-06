@@ -9,8 +9,11 @@ const {
   yellow,
 } = require('./colorStr');
 
-let cacheDir;
+let cacheDir; // 缓存结果
 
+/**
+ * 存在 node_modules 的目录视作项目的 root 目录
+ */
 module.exports = () => {
   if (cacheDir) {
     return cacheDir;
