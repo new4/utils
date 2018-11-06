@@ -12,7 +12,8 @@
   },
   "devDependencies": {
     "eslint": "^5.8.0",
-    "eslint-config-new4-eslintrc": "^0.4.0"
+    "eslint-config-new4-eslintrc": "^0.4.0",
+    "mocha": "^5.2.0"
   },
   "dependencies": {
     "chalk": "^2.4.1",
