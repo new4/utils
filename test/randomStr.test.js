@@ -4,11 +4,11 @@ const randomStr = require('../lib/randomStr');
 
 describe('randomStr', function () {
   it('randomStr().length => 7', function () {
-    expect(randomStr().length).to.equal(7);
+    expect(randomStr()).to.have.lengthOf(7);
   });
 
   it('randomStr(2).length => 2', function () {
-    expect(randomStr(2).length).to.equal(2);
+    expect(randomStr(2)).to.have.lengthOf(2);
   });
 
   it('/[_0-9a-zA-Z]+/.test(randomStr()) => true', function () {

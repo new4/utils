@@ -1,14 +1,8 @@
 const { expect } = require('chai');
-
 const addonZero = require('../lib/addonZero');
+const { itWrapperCreator } = require('./utils');
 
-function itWrapper(args, expected) {
-  const serializedArgs = JSON.stringify(args).replace(/(\[|\])/g, '').replace(',', ', ');
-  return it(
-    `addonZero(${serializedArgs}) => ${expected}`,
-    () => expect(addonZero(...args)).to.equal(expected),
-  );
-}
+const itWrapper = itWrapperCreator('addonZero', addonZero);
 
 describe('addonZero', function () {
   describe('不传参数', function () {
