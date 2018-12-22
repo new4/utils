@@ -6,4 +6,5 @@ deploy:
   email: new4wang@163.com
   api_key: $NPM_TOKEN
   on:
+    tags: true
     branch: master
