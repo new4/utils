@@ -3,7 +3,7 @@ node_js:
   - "10"
 deploy:
   provider: npm
-  email: new4wang@163.com
+  email: $NPM_EMAIL
   api_key: $NPM_TOKEN
   on:
     tags: true
