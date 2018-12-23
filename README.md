@@ -19,5 +19,5 @@ publish
 ```bash
 # yarn publish --access=public
 yarn version --patch
-git push origin master --tag
+git push origin --tag
 ```
