@@ -22,5 +22,5 @@ const util = require('@new4/utils');
 ```bash
 # yarn publish --access=public
 yarn version --patch
-git push origin --tag
+git push origin master --tag
 ```
