@@ -1,6 +1,6 @@
 {
   "name": "@new4/utils",
-  "version": "0.0.26",
+  "version": "0.0.27",
   "description": "new4's utils",
   "main": "index.js",
   "repository": "git@github.com:new4/utils.git",
