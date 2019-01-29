@@ -9,7 +9,7 @@
   "scripts": {
     "lint": "node node_modules/eslint/bin/eslint.js .",
     "lint:fix": "node node_modules/eslint/bin/eslint.js . --fix",
-    "test": "mocha"
+    "test": "mocha test/lib"
   },
   "devDependencies": {
     "chai": "^4.2.0",

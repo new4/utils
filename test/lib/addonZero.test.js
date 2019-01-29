@@ -1,6 +1,6 @@
 const { expect } = require('chai');
-const addonZero = require('../lib/addonZero');
-const { itWrapperCreator } = require('./utils');
+const addonZero = require('../../lib/addonZero');
+const { itWrapperCreator } = require('../utils');
 
 const itWrapper = itWrapperCreator('addonZero', addonZero);
 

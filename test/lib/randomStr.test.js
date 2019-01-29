@@ -1,6 +1,6 @@
 const { expect } = require('chai');
 
-const randomStr = require('../lib/randomStr');
+const randomStr = require('../../lib/randomStr');
 
 describe('randomStr', function () {
   it('randomStr().length => 7', function () {

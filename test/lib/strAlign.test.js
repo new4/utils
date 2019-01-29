@@ -1,5 +1,5 @@
-const { center } = require('../lib/strAlign');
-const { itWrapperCreator } = require('./utils');
+const { center } = require('../../lib/strAlign');
+const { itWrapperCreator } = require('../utils');
 
 const itWrapper = itWrapperCreator('center', center);
 
