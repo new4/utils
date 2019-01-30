@@ -9,6 +9,8 @@ common utils
 
 ```bash
 npm i @new4/utils
+# or
+yarn add @new4/utils
 ```
 
 ## use
@@ -17,10 +19,8 @@ npm i @new4/utils
 const util = require('@new4/utils');
 ```
 
-## publish
+or, you can only require one file by:
 
-```bash
-# yarn publish --access=public
-yarn version --patch
-git push origin master --tag
+```js
+const cache = require('@new4/utils/lib/cache');
 ```
