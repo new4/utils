@@ -9,7 +9,7 @@
   "scripts": {
     "lint": "node node_modules/eslint/bin/eslint.js .",
     "lint:fix": "node node_modules/eslint/bin/eslint.js . --fix",
-    "tag": "yarn version --patch && git push origin master --tag",
+    "deploy": "yarn version --patch && git push origin master --tag",
     "test": "mocha test/lib"
   },
   "devDependencies": {
