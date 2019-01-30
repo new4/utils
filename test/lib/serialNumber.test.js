@@ -1,13 +1,13 @@
 const { expect } = require('chai');
-const addonZero = require('../../lib/addonZero');
+const serialNumber = require('../../lib/serialNumber');
 const { itWrapperCreator } = require('../utils');
 
-const itWrapper = itWrapperCreator('addonZero', addonZero);
+const itWrapper = itWrapperCreator('serialNumber', serialNumber);
 
-describe('addonZero', function () {
+describe('serialNumber', function () {
   describe('不传参数', function () {
-    it('addonZero() => 000', function () {
-      expect(addonZero()).to.equal('000');
+    it('serialNumber() => 000', function () {
+      expect(serialNumber()).to.equal('000');
     });
   });
 
